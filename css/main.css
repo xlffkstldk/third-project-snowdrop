@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/* 메인 영역 컨텐츠만 작성함 */
+
+/* mobile device */
+@media screen and (min-width: 320px),
+screen and (min-height: 320px) and (orientation: landscape) {
+
+
+
+}
+
+/* tablet device */
+@media screen and (min-width:768px),
+screen and (min-height:768px) and (orientation:landscape) {
+
+
+}
+
+/* pc */
+@media screen and (min-width:1024px),
+screen and (min-height:1024px) and (orientation:landscape) {
+
+
+}

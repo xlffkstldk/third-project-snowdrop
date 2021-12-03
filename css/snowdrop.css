@@ -1,0 +1,69 @@
+@charset "utf-8";
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+/* 모든 해상도를 위한 공통 코드작성 */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #fff;
+}
+
+body,
+a,
+h1,
+h2,
+span,
+p,
+label,
+input,
+select,
+textarea,
+button {
+  font-family: '나눔 고딕', Nanum Gothic, '돋움', Dotum, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+}
+
+.blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+  overflow: hidden;
+}
+
+
+/* mobile device */
+@media screen and (min-width: 320px),
+screen and (min-height: 320px) and (orientation: landscape) {
+
+
+
+}
+
+/* tablet device */
+@media screen and (min-width:768px),
+screen and (min-height:768px) and (orientation:landscape) {
+
+
+}
+
+/* pc */
+@media screen and (min-width:1024px),
+screen and (min-height:1024px) and (orientation:landscape) {
+
+  
+
+}
