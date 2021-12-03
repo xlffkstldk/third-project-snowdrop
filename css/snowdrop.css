@@ -128,7 +128,60 @@ screen and (min-height: 320px) and (orientation: landscape) {
   background-color:#444;
 }
 
+.fcontent1 {
+  height:340px;
+  padding:50px 20px 30px; 
+  border-bottom:1px solid #fff;  
+}
+.fbanner {
+  height:60px;
+  margin-bottom:30px;
+  background-color:#c4c4c4;
+}
+.f-h2 {
+  color:#fff;
+  font-size:17px;
+  line-height:50px;
+  font-weight:bold;
+}
 
+.fmenu-link {
+  font-size:14px;
+  line-height:24px;    
+  color:#fff;
+}
+.fcontent2 {
+  height:180px;
+  padding:30px 20px; 
+  border-bottom:1px solid #fff;  
+}
+.fmenu2-link {
+  font-size:14px;
+  line-height:24px;    
+  color:#fff;
+}
+.fcompany {
+  height:200px;
+  padding:30px 20px; 
+}
+.faddress {
+  font-size:14px;
+  line-height:24px;    
+  color:#fff;
+}
+.sns-list {
+  margin:40px 0 50px;
+  text-align:center;
+}
+.sns-item {
+  display:inline-block;
+  width:21px;
+  height:21px;
+  background-color:#c4c4c4;
+}
+.sns-item + .sns-item {
+  margin-left:20px;
+}
 
 }
 
