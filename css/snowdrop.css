@@ -48,6 +48,85 @@ a {
 /* mobile device */
 @media screen and (min-width: 320px),
 screen and (min-height: 320px) and (orientation: landscape) {
+  /* 상단 팝업 */
+  .pop {
+    height:80px;
+    padding:20px 12% 20px 12%;
+    background-color:#444;
+    position:relative;
+  }
+  .pop-wrap {
+    color:#fff;
+    font-size:12px;
+    line-height:16px;
+  }
+  .pop-close {
+    position:absolute;
+    right:4%;
+    top:30px;
+  }
+  /* 헤더영역 */
+  .header {
+    background-color:#fff;
+    height:60px;
+  }
+  .header-wrap {
+    padding:15px 20px;
+    height:60px;
+    text-align:center;
+  }
+  .header-left {
+    float:left;
+    width:60px;
+  }
+  .header-left a, .header-right a {
+    display:inline-block;
+  }
+  .menu-icon, .login-icon {
+    margin-right:5px;
+  }
+  .logo {
+    text-align:center;
+    font-weight:bold;
+    display:inline-block;
+  }
+  .header-right{
+    float:right;
+    width:60px;
+  }
+
+  
+.header-wrap:after {
+  display: block;
+  content: '';
+  clear: both;
+
+}
+
+
+/* 헤더 영역 끝 */
+
+/* 컨텐츠영역 시작 */
+.container {
+  min-height: 100%;
+}
+.main-collection1 {
+  height:800px;
+  background-color:darkkhaki;
+}
+.main-collection2 {
+  height:1500px;
+  background-color:cyan;
+}
+.main-collection3 {
+  height:1500px;
+  background-color:chocolate;
+}
+/*푸터 */
+.footer {
+  min-height: 630px;
+  background-color:#444;
+}
 
 
 
