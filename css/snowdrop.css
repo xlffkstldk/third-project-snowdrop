@@ -48,154 +48,306 @@ a {
 /* mobile device */
 @media screen and (min-width: 320px),
 screen and (min-height: 320px) and (orientation: landscape) {
+
   /* 상단 팝업 */
   .pop {
-    height:80px;
-    padding:20px 12% 20px 12%;
-    background-color:#444;
-    position:relative;
+    height: 80px;
+    padding: 20px 12% 20px 12%;
+    background-color: #444;
+    position: relative;
   }
+
   .pop-wrap {
-    color:#fff;
-    font-size:12px;
-    line-height:16px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 16px;
   }
+
   .pop-close {
-    position:absolute;
-    right:4%;
-    top:30px;
+    position: absolute;
+    right: 4%;
+    top: 30px;
   }
+
   /* 헤더영역 */
   .header {
-    background-color:#fff;
-    height:60px;
+    background-color: #fff;
+    height: 60px;
+    position: relative;
   }
+
   .header-wrap {
-    padding:15px 20px;
-    height:60px;
-    text-align:center;
+    padding: 15px 20px;
+    height: 60px;
+    text-align: center;
   }
+
   .header-left {
-    float:left;
-    width:60px;
+    float: left;
+    width: 60px;
   }
-  .header-left a, .header-right a {
-    display:inline-block;
+
+  .header-left a,
+  .header-right a {
+    display: inline-block;
   }
-  .menu-icon, .login-icon {
-    margin-right:5px;
+
+  .menu-icon,
+  .login-icon {
+    margin-right: 5px;
   }
+
   .logo {
-    text-align:center;
-    font-weight:bold;
-    display:inline-block;
-  }
-  .header-right{
-    float:right;
-    width:60px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
   }
 
-  
-.header-wrap:after {
-  display: block;
-  content: '';
-  clear: both;
-
-}
+  .header-right {
+    float: right;
+    width: 60px;
+  }
 
 
-/* 헤더 영역 끝 */
+  .header-wrap:after {
+    display: block;
+    content: '';
+    clear: both;
 
-/* 컨텐츠영역 시작 */
-.container {
-  min-height: 100%;
-}
-.main-collection1 {
-  height:800px;
-  background-color:darkkhaki;
-}
-.main-collection2 {
-  height:1500px;
-  background-color:cyan;
-}
-.main-collection3 {
-  height:1500px;
-  background-color:chocolate;
-}
-/*푸터 */
-.footer {
-  min-height: 630px;
-  background-color:#444;
-}
+  }
 
-.fcontent1 {
-  height:340px;
-  padding:50px 20px 30px; 
-  border-bottom:1px solid #fff;  
-}
-.fbanner {
-  height:60px;
-  margin-bottom:30px;
-  background-color:#c4c4c4;
-}
-.f-h2 {
-  color:#fff;
-  font-size:17px;
-  line-height:50px;
-  font-weight:bold;
-}
+  /* 메뉴영역 시작 */
+  .m-nav {
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    padding: 20px 0;
+    text-align: left;
+    z-index: 100;
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transition: transform 500ms ease-out;
+    will-change: transform;
 
-.fmenu-link {
-  font-size:14px;
-  line-height:24px;    
-  color:#fff;
-}
-.fcontent2 {
-  height:180px;
-  padding:30px 20px; 
-  border-bottom:1px solid #fff;  
-}
-.fmenu2-link {
-  font-size:14px;
-  line-height:24px;    
-  color:#fff;
-}
-.fcompany {
-  height:200px;
-  padding:30px 20px; 
-}
-.faddress {
-  font-size:14px;
-  line-height:24px;    
-  color:#fff;
-}
-.sns-list {
-  margin:40px 0 50px;
-  text-align:center;
-}
-.sns-item {
-  display:inline-block;
-  width:21px;
-  height:21px;
-  background-color:#c4c4c4;
-}
-.sns-item + .sns-item {
-  margin-left:20px;
-}
+  }
 
+
+  .move {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    /* let the browser know we plan to animate
+    each view in and out 부드러운 전환을 위해 필수 */
+    transition: transform 500ms ease-out;
+    will-change: transform;
+  }
+
+  .m-nav1 {
+    height: auto;
+    padding-bottom:30px;
+    /* padding: 0 11%; */
+  }
+  .m-close {
+    padding:0 11%;
+  }
+  .m-close span {
+    margin-left: 20px;
+    font-weight: 600;
+  }
+
+  .m-menu1 {
+    margin-top: 40px;
+  }
+
+  .m-menuitem {
+    font-size: 14px;
+    line-height: 30px;
+    position:relative;
+  }
+  .m-menulink {
+    padding:0 11%;
+  }
+  .m-smenu {
+    display:none;
+    padding:10px 0;
+    background-color: #E8E8E8;
+
+  }
+  .m-smenuitem {
+    padding:0 11%;
+  }
+  .m-menulink .fas,
+  .m-intro .fas {
+    float: right;
+  }
+  .mline {
+    border:0;
+    border-top: 1px solid #000;
+    margin:30px 11%;
+  }
+  .m-intro {
+    clear: both;   
+    margin:0 11%;
+  }
+
+  .m-nav2 {
+    background-color: #c4c4c4;
+    height: 180px;
+    padding: 30px 11%;
+  }
+
+  .m-menuitem2 {
+    font-size: 14px;
+    line-height: 30px;
+  }
+
+  /* 검색폼 */
+  .m-search {
+    display: none;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    z-index: 50;
+    position: absolute;
+    padding: 10px 11%;
+  }
+
+  .s-form {
+    position: relative;
+  }
+
+  .s-text {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #696969;
+    text-indent: 34px;
+  }
+
+  .submit-img {
+    position: absolute;
+    top: 8px;
+    left: 5px;
+  }
+
+  .s-close {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    font-weight: 300;
+  }
+
+  /* 헤더 영역 끝 */
+
+
+
+  /* 컨텐츠영역 시작 */
+  .container {
+    min-height: 100%;
+  }
+
+  .main-collection1 {
+    height: 800px;
+    background-color: darkkhaki;
+  }
+
+  .main-collection2 {
+    height: 1500px;
+    background-color: cyan;
+  }
+
+  .main-collection3 {
+    height: 1500px;
+    background-color: chocolate;
+  }
+
+  /*푸터 */
+  .footer {
+    min-height: 630px;
+    background-color: #444;
+  }
+
+  .fcontent1 {
+    height: 340px;
+    padding: 50px 20px 30px;
+    border-bottom: 1px solid #fff;
+  }
+
+  .fbanner {
+    height: 60px;
+    margin-bottom: 30px;
+    background-color: #c4c4c4;
+  }
+
+  .f-h2 {
+    color: #fff;
+    font-size: 17px;
+    line-height: 50px;
+    font-weight: bold;
+  }
+
+  .fmenu-link {
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+  }
+
+  .fcontent2 {
+    height: 180px;
+    padding: 30px 20px;
+    border-bottom: 1px solid #fff;
+  }
+
+  .fmenu2-link {
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+  }
+
+  .fcompany {
+    height: 200px;
+    padding: 30px 20px;
+  }
+
+  .faddress {
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+  }
+
+  .sns-list {
+    margin: 40px 0 50px;
+    text-align: center;
+  }
+
+  .sns-item {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background-color: #c4c4c4;
+  }
+
+  .sns-item+.sns-item {
+    margin-left: 20px;
+  }
+
+  .mobile-dimmed {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: 0.3;
+    z-index: 10;
+  }
 }
 
 /* tablet device */
 @media screen and (min-width:768px),
-screen and (min-height:768px) and (orientation:landscape) {
-
-
-}
+screen and (min-height:768px) and (orientation:landscape) {}
 
 /* pc */
 @media screen and (min-width:1024px),
-screen and (min-height:1024px) and (orientation:landscape) {
-
-  
-
-}
+screen and (min-height:1024px) and (orientation:landscape) {}
