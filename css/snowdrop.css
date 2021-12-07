@@ -76,6 +76,10 @@ screen and (min-height: 320px) and (orientation: landscape) {
     position: relative;
   }
 
+  .p-header01 {
+    display: none;
+  }
+
   .header-wrap {
     padding: 15px 20px;
     height: 60px;
@@ -145,12 +149,14 @@ screen and (min-height: 320px) and (orientation: landscape) {
 
   .m-nav1 {
     height: auto;
-    padding-bottom:30px;
+    padding-bottom: 30px;
     /* padding: 0 11%; */
   }
+
   .m-close {
-    padding:0 11%;
+    padding: 0 11%;
   }
+
   .m-close span {
     margin-left: 20px;
     font-weight: 600;
@@ -163,32 +169,38 @@ screen and (min-height: 320px) and (orientation: landscape) {
   .m-menuitem {
     font-size: 14px;
     line-height: 30px;
-    position:relative;
+    position: relative;
   }
+
   .m-menulink {
-    padding:0 11%;
+    padding: 0 11%;
   }
+
   .m-smenu {
-    display:none;
-    padding:10px 0;
+    display: none;
+    padding: 10px 0;
     background-color: #E8E8E8;
 
   }
+
   .m-smenuitem {
-    padding:0 11%;
+    padding: 0 11%;
   }
+
   .m-menulink .fas,
   .m-intro .fas {
     float: right;
   }
+
   .mline {
-    border:0;
+    border: 0;
     border-top: 1px solid #000;
-    margin:30px 11%;
+    margin: 30px 11%;
   }
+
   .m-intro {
-    clear: both;   
-    margin:0 11%;
+    clear: both;
+    margin: 0 11%;
   }
 
   .m-nav2 {
@@ -268,15 +280,13 @@ screen and (min-height: 320px) and (orientation: landscape) {
   }
 
   .fcontent1 {
-    height: 340px;
+    height: auto;
     padding: 50px 20px 30px;
-    border-bottom: 1px solid #fff;
   }
 
   .fbanner {
     height: 60px;
-    margin-bottom: 30px;
-    background-color: #c4c4c4;
+    margin-bottom: 10px;
   }
 
   .f-h2 {
@@ -292,18 +302,20 @@ screen and (min-height: 320px) and (orientation: landscape) {
     color: #fff;
   }
 
-  .fcontent2 {
-    height: 180px;
-    padding: 30px 20px;
+  .fcontent1-1, .fcontent2, .fcontent3 {
+    height: auto;
+    padding: 20px;
     border-bottom: 1px solid #fff;
   }
+  .fcontent1-1 {
+    padding-top:0;
+  }
 
-  .fmenu2-link {
+  .fmenu1-link, .fmenu2-link, .fmenu3-link {
     font-size: 14px;
     line-height: 24px;
     color: #fff;
   }
-
   .fcompany {
     height: 200px;
     padding: 30px 20px;
@@ -350,4 +362,113 @@ screen and (min-height:768px) and (orientation:landscape) {}
 
 /* pc */
 @media screen and (min-width:1024px),
-screen and (min-height:1024px) and (orientation:landscape) {}
+screen and (min-height:1024px) and (orientation:landscape) {
+
+  /* 상단 팝업 */
+  .pop {
+    height: 35px;
+    padding: 0;
+  }
+
+  .pop-wrap {
+    max-width: 1300px;
+    font-size: 13px;
+    line-height: 35px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .pop-close {
+    right: 20px;
+    top: 12px;
+  }
+  /* pc 헤더1 */
+  .p-header01 {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: block;
+    height: 35px;
+    text-align: right;
+  }
+
+  .plinkitem {
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 35px;
+  }
+
+  .plink {
+    font-size: 13px;
+    color: #696969;
+  }
+
+  /* 헤더영역 */
+  
+  .header-wrap {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+/*푸터 */
+.footer {
+  min-height: 560px;
+}
+.footer-wrap {
+  max-width:1300px;
+  margin:0 auto;
+  overflow:hidden;
+}
+.fcontent-wrap {
+  overflow:hidden;
+}
+.fcontent1 {
+  height: 300px;
+  text-align:center;
+  padding: 130px 0 110px;
+}
+
+.fbanner {
+  display:inline-block;
+}
+
+.fcontent1-1, .fcontent2{
+  float:left;
+  width:33.33%;
+  border-bottom:unset;
+  vertical-align: top;
+  padding:0;
+}
+.fcontent2 {
+  text-align:center;
+}
+.fcontent3 {
+  float:right;
+  width:33.33%;
+  border-bottom:unset;
+  text-align:right;
+  padding:0;
+}
+
+.footer-wrap02 {
+  margin-top:50px;
+  border-top:1px solid #fff;
+}
+
+.fcompany {
+  max-width:1300px;
+  margin:0 auto;
+  height: 100px;
+  padding: 30px 0;
+  
+}
+
+.faddress {
+  float:left;
+}
+
+.sns-list {
+  margin:0;
+  float: right;
+}
+
+
+}
