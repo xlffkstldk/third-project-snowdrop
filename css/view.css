@@ -24,6 +24,7 @@ screen and (min-height: 320px) and (orientation: landscape) {
        line-height: 40px;
        text-align: right;
        margin: 0 auto 50px;
+       padding-right: 2%;
    }
 
    .content-wrap {
@@ -59,7 +60,7 @@ screen and (min-height: 320px) and (orientation: landscape) {
 
    .con-txt>p {
        font-size: 11px;
-       font-weight: bold;
+       font-weight: 900;
        padding-bottom: 3px;
    }
 
@@ -69,11 +70,7 @@ screen and (min-height: 320px) and (orientation: landscape) {
        padding: 5px 0;
    }
 
-   .con-txt:hover {
-       text-line
-   }
-
-   .con-link {
+   .con-link>a {
        font-size: 13px;
         color: #333;
    }
@@ -81,27 +78,27 @@ screen and (min-height: 320px) and (orientation: landscape) {
    .con2-wrap {
        width: 100%;
        clear: both;
-       padding: 20px 0;
+       padding-bottom: 20px;
     }
     
-    .dre-img1 {
+    .pc-img1 {
         width: 100%;
-        height: 400px;
+        height: 100%;
         overflow: hidden;
    }
 
-   .dre-img1>img {
+   .pc-img1>img {
        width: 100%;
    }
 
     
-    .dre-img2 {
+    .pc-img2 {
         width: 100%;
-        height: 400px;
+        height: 100%;
         overflow: hidden;
    }
 
-   .dre-img2>img {
+   .pc-img2>img {
        width: 100%;
    }
 }
