@@ -190,6 +190,7 @@ screen and (min-height: 320px) and (orientation: landscape) {
   .m-menulink .fas,
   .m-intro .fas {
     float: right;
+    margin-top:10px;
   }
 
   .mline {
@@ -223,6 +224,7 @@ screen and (min-height: 320px) and (orientation: landscape) {
     z-index: 50;
     position: absolute;
     padding: 10px 11%;
+    top:0;
   }
 
   .s-form {
@@ -258,21 +260,7 @@ screen and (min-height: 320px) and (orientation: landscape) {
     min-height: 100%;
   }
 
-  .main-collection1 {
-    height: 800px;
-    background-color: darkkhaki;
-  }
-
-  .main-collection2 {
-    height: 1500px;
-    background-color: cyan;
-  }
-
-  .main-collection3 {
-    height: 1500px;
-    background-color: chocolate;
-  }
-
+ 
   /*푸터 */
   .footer {
     min-height: 630px;
@@ -382,6 +370,12 @@ screen and (min-height:1024px) and (orientation:landscape) {
     right: 20px;
     top: 12px;
   }
+
+  .m-nav {
+    width: 320px;
+
+  }
+
   /* pc 헤더1 */
   .p-header01 {
     max-width: 1300px;
@@ -408,9 +402,28 @@ screen and (min-height:1024px) and (orientation:landscape) {
     max-width: 1300px;
     margin: 0 auto;
   }
+   /* 검색폼 */
+   .m-search {
+   
+    top:35px;
+  }
+  .container {
+    top:35px;
+    z-index:10;
+    position:relative;
+    padding-bottom:621px; /* 푸터길이만큼 */
+  }
+  .content-wrap {
+    z-index:10;
+  }
 /*푸터 */
 .footer {
-  min-height: 560px;
+  min-height: 621px;
+  position:fixed;
+  bottom:0;
+  z-index:0;
+  width:100vw;
+
 }
 .footer-wrap {
   max-width:1300px;
