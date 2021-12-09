@@ -10,6 +10,8 @@
 @media screen and (min-width: 320px),
 screen and (min-height: 320px) and (orientation: landscape) {
 
+    /* ---------------서브콘텐츠 공통------------------ */
+
    .container {
        width: 100%;
        margin: 0 auto;
@@ -32,7 +34,10 @@ screen and (min-height: 320px) and (orientation: landscape) {
        overflow: hidden;
        margin: 0 auto;
        padding-bottom: 100px;
+       background-color: #fff;
    }
+
+   /* --------------------------------------------------- */
 
    .con1-wrap {
        width: 100%;
@@ -101,6 +106,112 @@ screen and (min-height: 320px) and (orientation: landscape) {
    .pc-img2>img {
        width: 100%;
    }
+
+   /* --------------------into------------------------ */
+
+   .into-tit {
+       width: 100%;
+       margin: 0 auto;
+       text-align: center;
+       padding-top: 40px;
+   }
+
+   .into-logo {
+       padding-bottom: 35px;
+   }
+
+   .into-con-txt {
+       width: 100%;
+       color: #000;
+       font-size: 11px;
+       padding-bottom: 30px;
+       line-height: 17px;
+   }
+
+   .into-con-txt strong {
+       font-weight: 600;
+   }
+
+   .into-con-wrap {
+       width: 100%;
+       margin: 0 auto;
+       text-align: center;
+       position: relative;
+   }
+    
+    .into-img-box {
+        width: 100%;
+        margin: 40px 0;
+        overflow: hidden;
+   }
+
+   .into-img1 {
+       padding-left: 25%;
+   }
+
+   .into-img2 {
+       width: 60%;
+       float: left;
+   }
+
+   .into-txt {
+       font-size: 8px;
+       line-height: 17px;
+       text-indent: 5px;
+       color: rgb(238, 238, 238);
+   }
+
+   .into-txt-box1 {
+       width: 70%;
+       background-color: rgba(68, 68, 68, 0.774);
+       padding: 30px 15px;
+      position: absolute; 
+      right: 0;
+      top: 40%;
+   }
+
+   .into-img3 {
+    width: 70%;
+    float: right;
+    padding: 200px 0 0;
+}
+
+   .into-txt-box2 {
+       width: 60%;
+       background-color: rgba(68, 68, 68, 0.774);
+       padding: 30px 15px;
+      position: absolute; 
+      left: 0;
+      top: 25%;
+   }
+
+   .collection-more {
+       width: 100%;
+       margin: 0 auto;
+       clear: both;
+       padding-top: 50px;
+       text-align: center;
+   }
+
+   .collection-more-tit {
+       border: 1px solid #696969;
+       width: 120px;
+       margin: 7px auto;
+       line-height: 30px;
+       font-size: 16px;
+       color: #000;
+       font-weight: 600;
+   }
+
+   .collection-more-txt {
+       font-size: 14px;
+       font-weight: 600;
+   }
+
+
+
+
+
 }
 
 /* tablet device */
