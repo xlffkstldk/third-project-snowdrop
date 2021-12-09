@@ -52,7 +52,7 @@ screen and (min-height: 320px) and (orientation: landscape) {
   /* 상단 팝업 */
   .pop {
     height: 80px;
-    padding: 20px 12% 20px 12%;
+    padding: 16px 12% 20px 12%;
     background-color: #444;
     position: relative;
   }
