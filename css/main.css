@@ -210,12 +210,12 @@ screen and (min-height: 320px) and (orientation: landscape) {
     top: 136px;
     right: 0;
     width: calc(100% - 40px);
-    height: calc(128.5.vw - 40px);
+    height: calc(128.5vw - 40px);
   }
 
   .main-collection4-img3 img {
     width: 100%;
-    height: calc(128.5.vw - 40px);
+    height: calc(128.5vw - 40px);
     object-fit: cover;
   }
 
