@@ -6,13 +6,13 @@ $(function () {
 
   $(".menu-icon").click(function () {
     $(".mobile-dimmed").css("display", "block");
-    $("html, body").css("overflow-y","hidden");
+    $("body").css("overflow-y","hidden");
     $(".m-nav").addClass("move");
 
   });
   $(".m-close").click(function () {
     $(".mobile-dimmed").css("display", "none");
-    $("html, body").css("overflow-y","auto");
+    $("body").css("overflow-y","auto");
     $(".m-nav").removeClass("move");
   });
 
