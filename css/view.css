@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+@import 'animate.css';
+
 /* view 컨텐츠 디자인 작성 */
 
 
@@ -208,7 +210,7 @@ screen and (min-height: 320px) and (orientation: landscape) {
        font-weight: 600;
    }
 
-
+   
 
 
 
