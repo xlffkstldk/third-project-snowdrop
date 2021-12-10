@@ -25,10 +25,16 @@ $(function () {
  
   //소속 하위메뉴만 슬라이드다운방식
   $(".m-menu1 li").click(function () {
-    $(".m-menu1").find(".m-smenu").slideUp(200);
-    $(".m-menu1").find("i.fa-minus").removeClass("fa-minus").addClass("fa-plus");
-    $(this).children(".m-smenu").stop().slideDown(200);
-    $(this).find("i").removeClass("fa-plus").addClass("fa-minus");
+    if( $(this).find("i").hasClass("fa-minus")) {
+      $(this).children(".m-smenu").slideUp(200);
+      $(this).find("i").removeClass("fa-minus").addClass("fa-plus");
+    } else {
+      $(".m-menu1").find(".m-smenu").slideUp(200);
+      $(".m-menu1").find("i.fa-minus").removeClass("fa-minus").addClass("fa-plus");
+      $(this).children(".m-smenu").stop().slideDown(200);
+      $(this).find("i").removeClass("fa-plus").addClass("fa-minus");
+    }
+
   });
 
 

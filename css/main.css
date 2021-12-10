@@ -15,7 +15,7 @@ screen and (min-height: 320px) and (orientation: landscape) {
 
   .main-collection1-img1,
   .main-collection1-img2 {
-    width: 1005;
+    width: 100%;
     height: 125vw;
     position: relative;
   }
@@ -89,12 +89,15 @@ screen and (min-height: 320px) and (orientation: landscape) {
     padding: 0 20px;
   }
 
-  .main-tit p {
+  .main-tit .main-tit1 {
     font-size: 14px;
     line-height: 20px;
+    display:block;
   }
 
-  .main-tit h3 {
+
+  .main-tit2,.main-tit3 {
+    display:block;
     font-size: 24px;
     line-height: 30px;
   }
@@ -167,6 +170,9 @@ screen and (min-height: 320px) and (orientation: landscape) {
     width: 100%;
     height: 125vw;
     object-fit: cover;
+  }
+  .main-coolection3-desc {
+    display:none;
   }
   .main-collection4 {
     width: 100%;
@@ -249,4 +255,201 @@ screen and (min-height:768px) and (orientation:landscape) {}
 
 /* pc */
 @media screen and (min-width:1024px),
-screen and (min-height:1024px) and (orientation:landscape) {}
+screen and (min-height:1024px) and (orientation:landscape) {
+
+
+  .main-collection1 {
+    height: 82.28vw;
+  }
+
+  .main-collection1-img1,
+  .main-collection1-img2 {
+    height: 41.14vw;
+  }
+
+  .main-collection1-img1 img,
+  .main-collection1-img2 img {
+    height: 41.14vw;
+  }
+
+  .main-collection1-img1-txt {
+    bottom: 20vw;
+    background-color: rgba(51, 51, 51, 0);
+  }
+
+  .main-collection1-img1-link span {
+    display: inline-block;
+    font-size:24px;
+  }
+
+  .main-collection1-img1-link {
+    font-size: 24px;
+  }
+
+  .main-collection1-img2-more {
+   left:calc(50vw - 60px);
+  }
+
+  .main-collection1-img2-txt {
+    text-align:center;
+    color:#000;
+  }
+
+ 
+
+.main-collection2 {
+  height: 56.77vw;
+  position:relative;
+}
+  .main-tit {
+    text-align: center;
+    padding: 75px 20px;
+  }
+  .main-tit1, .main-tit2,.main-tit3 {
+    display:inline-block;
+  }
+  .main-tit h3 span {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .main-tit h3 .main-tit1 {
+    font-size: 16px;
+    line-height: 20px;
+    display:block;
+  }
+
+  .main-collection2-img {
+    position:absolute;
+    top:300px;
+    right:0;
+    width: 83.85%;
+    height: 41.14vw;
+  }
+
+/***************************************************/
+  .main-collection3 {
+    height: 91.35vw;
+  }
+
+  .main-collection3-img1 {
+    top: 15.62vw;
+    left: 9.16%;
+    width: 39.58%;
+    height: 44.27vw;
+  }
+  
+  .main-collection3-img1-more {
+    bottom: 126px;
+    left:480px;
+  }
+  .main-collection3-img1-txt {
+    bottom: 100px;
+    left:440px;
+    text-align:left;
+  }
+
+  .main-collection3-img2 {
+    top: 50.20vw;
+    height: 41.14vw;
+  }
+  .main-collection3-img2 img {
+    height: 41.14vw;
+  }
+  .main-coolection3-desc {
+    display:block;
+    position:absolute;
+    top:22.65vw;
+    right:16.45vw;
+    width:29.11%;
+    height:17.18vw;
+
+  }
+  .main-coolection3-desc h3 {
+    font-size:26px;
+    line-height: 34px;
+    font-weight:700;
+    text-align:right;
+  }
+  .main-coolection3-desc p {
+    font-size:16px;
+    margin-top:20px;
+    line-height: 20px;
+    font-weight:400;
+    text-align:right;
+  }
+  /*******************************************************************/
+  .main-collection4 {
+    width: 100%;
+    height: 300vw;
+    overflow:hidden;
+    position:relative;
+    background-color:#fff;
+  }
+
+  .main-collection4-img1 {
+    padding: 0 48px 48px;
+
+  }
+
+  .main-collection4-img1 img {
+    object-fit: cover;
+    width: 100%;
+    height: calc(124.4vw - 48px);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  .main-collection4-wrap2 {
+    width: 100%;
+    height: 155vw;
+    position: relative;
+
+  }
+
+  .main-collection4-img2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: auto;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    z-index: 20;
+  }
+
+  .main-collection4-wrap3 {
+    position: absolute;
+    top: 136px;
+    right: 0;
+    width: calc(100% - 40px);
+    height: calc(128.5vw - 40px);
+  }
+
+  .main-collection4-img3 img {
+    width: 100%;
+    height: calc(128.5vw - 40px);
+    object-fit: cover;
+  }
+
+  .main-collection4-more {
+    position: absolute;
+    height: 28px;
+    width: 120px;
+    bottom: 60px;
+    right: 20px;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 800;
+  }
+
+  .main-collection4-txt {
+    position: absolute;
+    height: 28px;
+    width: 100%;
+    bottom: 30px;
+    right: 20px;
+    text-align: right;
+    line-height: 24px;
+    font-weight: 800;
+  }
+
+}
