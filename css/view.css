@@ -326,6 +326,10 @@ screen and (min-height:1024px) and (orientation:landscape) {
         text-align: center;
         padding-bottom:155px;
     }
+    .pc-h04 .con-txt {
+        text-align: center;
+    }
+
     .pc-img2{
         display: inline;
         width: unset;
