@@ -14,7 +14,7 @@
 -------------- 이벤트 : 이벤트목록<br>
 -------------- 공지사항 : 게시물목록<br>
 -------------- 기타 : 로그인/이용약관/개인정보취급방침/문의하기<br>
-## 피그마 디자인 링크 : https://www.figma.com/proto/Wst2UF1HzZRIyWQ4r7ZyA6/SNOWDROP-%EC%97%AC%EC%88%98%EC%97%B0%2C%EB%82%98%EC%9D%80%EC%A7%80?node-id=1%3A16&scaling=contain&page-id=0%3A1
+## 피그마 디자인 링크 : https://www.figma.com/file/Wst2UF1HzZRIyWQ4r7ZyA6/SNOWDROP-%EC%97%AC%EC%88%98%EC%97%B0%2C%EB%82%98%EC%9D%80%EC%A7%80?node-id=0%3A1
 ## 사용 언어
 - HTML5
 - CSS3
