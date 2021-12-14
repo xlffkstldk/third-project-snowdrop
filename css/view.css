@@ -221,9 +221,6 @@ screen and (min-height: 320px) and (orientation: landscape) {
 
 }
 
-/* tablet device */
-@media screen and (min-width:768px),
-screen and (min-height:768px) and (orientation:landscape) {}
 
 /* pc */
 @media screen and (min-width:1024px),
@@ -231,11 +228,14 @@ screen and (min-height:1024px) and (orientation:landscape) {
 
     .header {
         height: 95px;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
     }
 
     .container {
         width: unset;
         margin: unset;
+        top:0;
+        padding-top:35px;
 
     }
 
@@ -267,12 +267,21 @@ screen and (min-height:1024px) and (orientation:landscape) {
     /* dress.html start */
     .pc-h01 {
         height: 45.05vw;
+        padding:0 30px;
     }
-
+    .pc-h01 li:first-child {
+        width:50%;
+        padding-right:1.53%;
+    }
+    .pc-h01 li:last-child {
+        width:50%;
+        padding-left:1.53%;
+    }
     .pc-h02 {
-        height: 64.06vw;
+        height: auto;
         text-align: center;
         padding-top: 8.07vw;
+        padding-bottom:155px;
 
     }
 
@@ -283,7 +292,7 @@ screen and (min-height:1024px) and (orientation:landscape) {
     }
 
     .pc-img1 img {
-        width: 32.29%;
+        width:47.69%;
         height: auto;
     }
 
@@ -293,14 +302,59 @@ screen and (min-height:1024px) and (orientation:landscape) {
 
     .pc-h03 {
         height: 93.33vw;
+        width:100%;
+        padding:0 30px;
+    }
+    .pc-h03 li {
+        width: 30.76%;        
+    }
+    .pc-h03 li{
+        margin-left:3.82%;   
+    }
+    .pc-h03 li:first-child {
+        margin-left:unset;  
+    }
+    .pc-h03 li:last-child {
+        margin:155px 0; 
+        float:right;
+        width:46.53%;
+        height:auto;
     }
 
     .pc-h04 {
-        height: 58.33vw;
+        height: auto;
+        text-align: center;
+        padding-bottom:155px;
+    }
+    .pc-h04 .con-txt {
+        text-align: center;
     }
 
+    .pc-img2{
+        display: inline;
+        width: unset;
+        height: unset
+    }
+
+    .pc-img2 img {
+        width: 47.69%;
+        height: auto;
+    }
     .pc-h05 {
-        height: 110.93vw;
+        height: 120vw;
+        padding:0 30px;
+    }
+    
+
+    .pc-h05 li:nth-child(2n + 1) {
+        width:50%;
+        padding-right:1.53%;
+        padding-bottom:100px;
+    }
+    .pc-h05 li:nth-child(2n) {
+        width:50%;
+        padding-left:1.53%;
+        padding-bottom:100px;
     }
     /* dress.html end */
 }

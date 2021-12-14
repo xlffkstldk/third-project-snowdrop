@@ -250,9 +250,6 @@ screen and (min-height: 320px) and (orientation: landscape) {
   }
 }
 
-/* tablet device */
-@media screen and (min-width:768px),
-screen and (min-height:768px) and (orientation:landscape) {}
 
 /* pc */
 @media screen and (min-width:1024px),

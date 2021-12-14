@@ -344,10 +344,6 @@ screen and (min-height: 320px) and (orientation: landscape) {
   }
 }
 
-/* tablet device */
-@media screen and (min-width:768px),
-screen and (min-height:768px) and (orientation:landscape) {}
-
 /* pc */
 @media screen and (min-width:1024px),
 screen and (min-height:1024px) and (orientation:landscape) {
@@ -397,7 +393,11 @@ screen and (min-height:1024px) and (orientation:landscape) {
   }
 
   /* 헤더영역 */
-  
+  .header {
+    height: 95px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+    z-index:11;
+}
   .header-wrap {
     max-width: 1300px;
     margin: 0 auto;
@@ -408,7 +408,7 @@ screen and (min-height:1024px) and (orientation:landscape) {
     top:35px;
   }
   .container {
-    top:35px;
+    /* top:35px; */
     z-index:10;
     position:relative;
     padding-bottom:621px; /* 푸터길이만큼 */
