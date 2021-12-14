@@ -44,6 +44,7 @@ screen and (min-height: 320px) and (orientation: landscape) {
     .sample a {
          color: #fff;
          font-weight: lighter;
+         font-size: 14px;
      }
 
      .bookmark-wrap img {
