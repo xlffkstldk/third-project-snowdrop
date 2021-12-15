@@ -95,20 +95,20 @@
     <div class="container-white"><div class="con-tit"><h2>비밀번호 찾기</h2></div>
       <div class="content-wrap">
         <div class="fm-wrap">
-          <form name="f-find" class="ffind">
+          <form name="f-find" class="flogin">
             <fieldset>
-              <legend>비밀번호를 잊으셨나요?</legend>
-              <p>&#42;필수항목</p>
+              <legend class="tit">비밀번호를 잊으셨나요?</legend>
+              <p class="require">&#42;필수항목</p>
               <ul>
                 <li>
                   <label for="user-id">이메일&#42;</label>
-                  <input type="text" name="userId" id="user-id" class="w100" required>
+                  <input type="text" name="userId" id="user-id" class="find" required>
                 </li>
                
-                <li>회원가입할때 사용하신 이메일 주소를 입력해주세요.</li>
+                <li class="desc">회원가입할때 사용하신 이메일 주소를 입력해주세요.</li>
                
                 <li>
-                  <button type="submit" name="btnFind" id="btn-find" class="w100 btn b-find">보내기</button>
+                  <button type="submit" name="btnFind" id="btn-find" class="btn b-find">보내기</button>
                 </li>
               </ul>
             </fieldset>

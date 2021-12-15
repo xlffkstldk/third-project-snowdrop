@@ -27,6 +27,7 @@ screen and (min-height: 320px) and (orientation: landscape) {
      font-size:16px;
      line-height:34px;
      font-weight:600;
+     color:#696969;
   }
   .flogin input[type='text'],.flogin input[type='password'] {
     display:block;
@@ -90,13 +91,32 @@ screen and (min-height: 320px) and (orientation: landscape) {
 .fm-wrap p {
   line-height:24px;
 }
-.benefits li {
+.benefits li, .find-order li {
   line-height:24px;
 }
-.benefits li:before {
+.benefits li:before, .find-order li:before {
   content:'*';
   font-weight:600;
   display:inline;
+}
+/* 비밀번호 찾기 */
+.flogin .tit {
+  font-size:20px;
+  font-weight:bold;
+  color:#696969;
+  margin-bottom:30px;
+}
+.flogin input.find {
+  margin-bottom:10px;
+
+}
+.flogin li.desc {
+  margin-bottom:30px;
+  color:#696969;
+  font-size:15px;
+}
+.flogin .b-find {
+  margin-bottom:40px;
 }
 }
 
