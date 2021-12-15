@@ -15,7 +15,6 @@ screen and (min-height: 320px) and (orientation: landscape) {
   .content-wrap {
     width: calc(100% - 80px);
     margin:0 40px;
-    background-color:chocolate
   }
   .flogin p.require {
     font-size:16px;
@@ -63,9 +62,42 @@ screen and (min-height: 320px) and (orientation: landscape) {
     color:#fff;
     line-height:40px;
     font-size:16px;
-    font-weight:bold;
+    font-weight:600;
     border-width:0;
   }
+
+  /* heading에 가로선넣기 */
+  .lo-h3 {
+    padding:30px 0;
+    display: grid;
+    width: 100%;
+    font-size:15px;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
+    grid-gap: 20px;
+}
+
+.lo-h3:before,
+.lo-h3:after {
+    content: '';
+    border-top: 1px solid;
+}
+.join-link {
+  text-align:center;
+  margin-bottom:30px;
+}
+.fm-wrap p {
+  line-height:24px;
+}
+.benefits li {
+  line-height:24px;
+}
+.benefits li:before {
+  content:'*';
+  font-weight:600;
+  display:inline;
+}
 }
 
 
