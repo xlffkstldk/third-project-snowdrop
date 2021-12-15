@@ -134,9 +134,14 @@ screen and (min-height:1024px) and (orientation:landscape) {
     
   }
   .fm-wrap {
-    width:800px;
+    width:600px;
     display:inline-block;
     margin-bottom:150px;
   }
-
+  .fm-wrap p {
+    text-align:left;
+  }
+  .benefits li, .find-order li {
+    text-align:left;
+  }
 }
