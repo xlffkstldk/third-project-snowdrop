@@ -1,48 +1,11 @@
 @charset "utf-8";
-
-/* view 컨텐츠 디자인 작성 */
-
-/* 모든 해상도를 위한 공통 코드작성 */
-
+@import url('sub.css');
 
 /* mobile device */
 @media screen and (min-width: 320px),
 screen and (min-height: 320px) and (orientation: landscape) {
 
-    /* ---------------서브콘텐츠 공통------------------ */
-
-    .container {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .con-tit {
-        width: calc(100% - 20px);
-        border-bottom: 1px solid #696969;
-
-        text-align: right;
-        margin: 0 auto 50px;
-
-    }
-
-
-    .con-tit h2 {
-        font-size: 24px;
-        font-weight: 700;
-        color: #000;
-        line-height: 40px;
-        padding-right: 2%;
-    }
-
-    .content-wrap {
-        width: calc(100% - 20px);
-        overflow: hidden;
-        margin: 0 auto;
-        padding-bottom: 100px;
-        background-color: #fff;
-    }
-
-    /* --------------------------------------------------- */
+  
 
     .con1-wrap {
         width: 100%;
@@ -226,44 +189,6 @@ screen and (min-height: 320px) and (orientation: landscape) {
 @media screen and (min-width:1024px),
 screen and (min-height:1024px) and (orientation:landscape) {
 
-    .header {
-        height: 95px;
-        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
-    }
-
-    .container {
-        width: unset;
-        margin: unset;
-        top:0;
-        padding-top:35px;
-
-    }
-
-    .container-white {
-        background-color: #fff;
-        overflow: hidden;
-    }
-
-    .content-wrap {
-        width: 100%;
-        max-width: 1300px;
-        overflow: unset;
-        margin: 0 auto;
-        background-color: #fff;
-    }
-
-    .con-tit {
-        width: 100%;
-        margin-bottom: 186px;
-    }
-
-    .con-tit h2 {
-
-        max-width: 1300px;
-        margin: 0 auto;
-        text-align: right;
-        padding: 0;
-    }
     /* dress.html start */
     .pc-h01 {
         height: 45.05vw;
