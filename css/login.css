@@ -129,11 +129,13 @@ screen and (min-height:1024px) and (orientation:landscape) {
   .content-wrap {
     width:100%;
     max-width:1300px;
+    text-align:center;
+    margin:0 auto;
     
   }
   .fm-wrap {
     width:800px;
-    margin:0 auto;
+    display:inline-block;
     margin-bottom:150px;
   }
 
