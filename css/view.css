@@ -77,6 +77,27 @@ screen and (min-height: 320px) and (orientation: landscape) {
         width: 100%;
     }
 
+    .pc-b-img1 {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .pc-b-img1>img {
+        width: 100%;
+    }
+
+
+    .pc-b-img2 {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .pc-b-img2>img {
+        width: 100%;
+    }
+
     /* --------------------into------------------------ */
 
     .into-tit {
@@ -422,8 +443,12 @@ screen and (min-height:1024px) and (orientation:landscape) {
         height: auto;
     }
 
-    .pc-h02 .con-txt {
+    .pc-h02 {
         text-align: center;
+    }
+
+    .pc-h02>.con-txt {
+        padding-left: 26%;
     }
 
     .pc-h03 {
@@ -452,8 +477,10 @@ screen and (min-height:1024px) and (orientation:landscape) {
         text-align: center;
         padding-bottom:155px;
     }
-    .pc-h04 .con-txt {
-        text-align: center;
+
+
+    .pc-h04>.con-txt {
+        padding-left: 26%;
     }
 
     .pc-img2{
@@ -483,4 +510,144 @@ screen and (min-height:1024px) and (orientation:landscape) {
         padding-bottom:100px;
     }
     /* dress.html end */
-}
+
+    /* bouquet.html start */
+
+    .pc-b01 {
+        width: 75%;
+        float: right;
+        margin-bottom: 155px;
+    }
+
+    .pc-b01>a>img:hover {
+        transform: scale(1.5);
+        transition-duration: 1s;
+    }
+    .pc-b03>a>img:hover {
+        transform: scale(1.5);
+        transition-duration: 1s;
+    }
+    .pc-b04>a>img:hover {
+        transform: scale(1.5);
+        transition-duration: 1s;
+    }
+    
+    
+    .pc-b02 {
+        clear: both;
+        width: 75%;
+    }
+
+
+    .pc-b02 li:nth-child(1n) {
+        margin-bottom: 100px;
+    }
+
+    .pc-b02 li {
+        padding: 0 10px;
+    }
+
+    .pc-b03 {
+        width: 75%;
+        float: right;
+        margin-bottom: 155px;
+        margin-top: 55px;
+    }
+
+    .pc-b04 {
+        width: 75%;
+        float: left;
+        margin-bottom: 155px;
+    }
+
+    .pc-b05 {
+        clear: both;
+        width: 75%;
+        height: 50vw;
+    }
+
+    .pc-b05 li {
+        padding: 0 10px;
+    }
+    
+
+    /* bouquet.html end */
+
+    /* into.html start */
+
+    .into-logo{
+        padding-bottom:  850px;
+    }
+
+    .into-con-txt {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .into-txt {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+
+    .pc-i01 {
+        width: 69%;
+        position: absolute;
+        top: 180px;
+        left: 0;
+        right: 0;
+        height: 700px;
+        overflow: hidden;
+    }
+
+    .pc-i02 {
+        width: 100%;
+        
+    }
+
+    .pc-i03 {
+        width: 100%;
+        height: 700px;
+        overflow: hidden;
+        margin-bottom: 150px;
+        margin-top: 10px;
+    }
+
+    .pc-i03 img {
+        width: 100%;
+    }
+
+    .into-txt-box1 {
+        width: 45%;
+        background-color: rgba(68, 68, 68, 0.774);
+        padding: 50px 50px;
+        position: absolute;
+        right: 0;
+        top: 40%;
+    }
+
+
+    .into-txt-box2 {
+        width: 40%;
+        background-color: rgba(68, 68, 68, 0.774);
+        padding: 50px 50px;
+        position: absolute;
+        left: 0;
+        top: 30%;
+    }
+
+    .pc-i04 {
+        width: 100%;
+        height: 50vw;
+    }
+    .pc-i05 {
+        width: 90%;
+        height: 60vw;
+        margin-top: -80px;
+    }
+
+    .pc-i06 {
+        padding: 100px 0 155px;
+    }
+
+    }
