@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/view.css">
   <link rel="stylesheet" href="css/product.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <script src="https://kit.fontawesome.com/cf8ea082cd.js" crossorigin="anonymous"></script>
   <script src="js/jquery-1.12.4.min.js"></script>
   <script src="js/script.js"></script>
@@ -20,7 +21,8 @@
 <body>
   <div class="pop">
     <div class="pop-wrap">코로나-19로 인해 배송이 지연되고 있으며, 주문하신 날로부터 영업일 기준 2-3일 소요될 것으로 예상되오니 많은 양해 부탁드립니다.</div>
-    <a href="#" class="pop-close"><img src="images/icon/close-w.png" class="pop-img" alt="닫기" width="14" height="14"></a>
+    <a href="#" class="pop-close"><img src="images/icon/close-w.png" class="pop-img" alt="닫기" width="14"
+        height="14"></a>
   </div>
   <header class="header">
     <div class="p-header01">
@@ -35,7 +37,8 @@
         <a href="#" class="search-icon"><img src="images/icon/search.png" width="24" alt="제품검색"></a>
       </div>
       <h1 class="logo">
-        <a href="index.html" class="logo-link"><img src="images/logo2.png" alt="로고" width="140"><span class="blind"></span></a>
+        <a href="index.html" class="logo-link"><img src="images/logo2.png" alt="로고" width="140"><span
+            class="blind"></span></a>
       </h1>
       <div class="header-right">
         <a href="#" class="login-icon"><img src="images/icon/login.png" width="24" alt="회원로그인"></a>
@@ -54,13 +57,13 @@
               <li class="m-smenuitem"><a href="dress.html" class="m-smenulink">심플</a></li>
               <li class="m-smenuitem"><a href="dress.html" class="m-smenulink">자수</a></li>
               <li class="m-smenuitem"><a href="dress.html" class="m-smenulink">프릴</a></li>
-            </ul>          
+            </ul>
           </li>
           <li class="m-menuitem"><a href="#" class="m-menulink">ACC <i class="fas fa-plus fa-xs"></i></a>
             <ul class="m-smenu">
               <li class="m-smenuitem"><a href="bouquet.html" class="m-smenulink">부케</a></li>
               <li class="m-smenuitem"><a href="#" class="m-smenulink">화관</a></li>
-            </ul> 
+            </ul>
           </li>
           <li class="m-menuitem"><a href="#" class="m-menulink">이벤트 </a></li>
           <li class="m-menuitem"><a href="#" class="m-menulink">공지시항 </a></li>
@@ -91,29 +94,36 @@
       </form>
     </div>
   </header>
-<!-- ----------------------------------------------메인시작-------------------------------------------------- -->
+  <!-- ----------------------------------------------메인시작-------------------------------------------------- -->
   <main class="container">
-    <div class="container-white"><div class="con-tit"><h2>DRESS</h2></div>
+    <div class="container-white">
+      <div class="con-tit">
+        <h2>DRESS</h2>
+      </div>
       <div class="content-wrap">
-        
-      <div class="pro-con-wrap">
-        <div class="left-con">
-          <div class="pro-img-wrap">
-            <ul>
-              <li><img src="images/dress/1-3.jpg" alt="상품이미지" width="100%"></li>
-              <li><img src="images/dress/1-1.jpg" alt="상품이미지" width="100%"></li>
-              <li><img src="images/dress/1-2.jpg" alt="상품이미지" width="100%"></li>
-            </ul>
+
+        <div class="pro-con-wrap">
+          <div class="left-con">
+            <div class="slide-wrap">
+              <div class="swiper mySwiper">
+                <ul class="swiper-wrapper">
+                  <li class="swiper-slide"><img src="images/dress/1-3.jpg" alt="상품이미지"></li>
+                  <li class="swiper-slide"><img src="images/dress/1-1.jpg" alt="상품이미지"></li>
+                  <li class="swiper-slide"><img src="images/dress/1-2.jpg" alt="상품이미지"></li>
+                </ul>
+                <div class="swiper-pagination"></div>
+              </div>
+
+            </div>
           </div>
-        </div>
-        <div class="right-con">
-          <div class="pro-txt-wrap">
-            <div class="pro-tit">
-              <h3>
-                NEW<br>
-                브이넥 올오버 레이스 드레스
-              </h3>
-              <p class="pro-txt">브이넥의 올오버 레이스 드레스로 어깨선과 허리선의 아름다움을 강조하는 드레스.</p>
+          <div class="right-con">
+            <div class="pro-txt-wrap">
+              <div class="pro-tit">
+                <h3>
+                  NEW<br>
+                  브이넥 올오버 레이스 드레스
+                </h3>
+                <p class="pro-txt">브이넥의 올오버 레이스 드레스로 어깨선과 허리선의 아름다움을 강조하는 드레스.</p>
               </div>
               <div class="sample-box">
                 <p class="sample"><a href="#">샘플예약하기</a></p>
@@ -121,7 +131,7 @@
               <div class="bookmark-wrap">
                 <img src="images/icon/cart.png" alt="카트" width="24"><a class="book-tit pc" href="#">즐겨찾기에 추가</a>
               </div>
-          </div>
+            </div>
             <div class="pro-txt-wrap">
               <div class="pro-into">
                 <h3>세부사항</h3>
@@ -169,64 +179,64 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div class="pro-con-wrap">
+          <div class="pro-con-similar pc">
+            <h3 class="pro-con-tit">유사한 상품</h3>
+            <ul>
+              <li><a href="#">
+                  <img src="images/dress/2-1.jpg" alt="상품이미지" width="100%">
+                  <div class="con-txt">
+                    <p>new</p>
+                    <h3 class="con-link"><a href="#">프릴 드레스</a></h3>
+                  </div>
+                </a></li>
+              <li><a href="#">
+                  <img src="images/dress/2-1.jpg" alt="상품이미지" width="100%">
+                  <div class="con-txt">
+                    <p>new</p>
+                    <h3 class="con-link"><a href="#">프릴 드레스</a></h3>
+                  </div>
+                </a></li>
+              <li><a href="#">
+                  <img src="images/dress/2-1.jpg" alt="상품이미지" width="100%">
+                  <div class="con-txt">
+                    <p>new</p>
+                    <h3 class="con-link"><a href="#">프릴 드레스</a></h3>
+                  </div>
+                </a></li>
+            </ul>
+          </div>
+          <div class="pro-con-recom">
+            <h3 class="pro-con-tit">추천 상품</h3>
+            <ul>
+              <li><a href="#">
+                  <img src="images/dress/2-1.jpg" alt="상품이미지" width="100%">
+                  <div class="con-txt">
+                    <p>new</p>
+                    <h3 class="con-link"><a href="#">프릴 드레스</a></h3>
+                  </div>
+                </a></li>
+              <li><a href="#">
+                  <img src="images/dress/2-1.jpg" alt="상품이미지" width="100%">
+                  <div class="con-txt">
+                    <p>new</p>
+                    <h3 class="con-link"><a href="#">프릴 드레스</a></h3>
+                  </div>
+                </a></li>
+              <li><a href="#">
+                  <img src="images/dress/2-1.jpg" alt="상품이미지" width="100%">
+                  <div class="con-txt">
+                    <p>new</p>
+                    <h3 class="con-link"><a href="#">프릴 드레스</a></h3>
+                  </div>
+                </a></li>
+            </ul>
+          </div>
         </div>
       </div>
-      <div class="pro-con-wrap">
-        <div class="pro-con-similar pc">
-          <h3 class="pro-con-tit">유사한 상품</h3>
-          <ul>
-            <li><a href="#">
-              <img src="images/dress/2-1.jpg" alt="상품이미지" width="100%">
-              <div class="con-txt">
-                <p>new</p>
-                <h3 class="con-link"><a href="#">프릴 드레스</a></h3>
-              </div>
-            </a></li>
-            <li><a href="#">
-              <img src="images/dress/2-1.jpg" alt="상품이미지" width="100%">
-              <div class="con-txt">
-                <p>new</p>
-                <h3 class="con-link"><a href="#">프릴 드레스</a></h3>
-              </div>
-            </a></li>
-            <li><a href="#">
-              <img src="images/dress/2-1.jpg" alt="상품이미지" width="100%">
-              <div class="con-txt">
-                <p>new</p>
-                <h3 class="con-link"><a href="#">프릴 드레스</a></h3>
-              </div>
-            </a></li>
-          </ul>
-        </div>  
-        <div class="pro-con-recom">
-          <h3 class="pro-con-tit">추천 상품</h3>
-          <ul>
-            <li><a href="#">
-              <img src="images/dress/2-1.jpg" alt="상품이미지" width="100%">
-              <div class="con-txt">
-                <p>new</p>
-                <h3 class="con-link"><a href="#">프릴 드레스</a></h3>
-              </div>
-            </a></li>
-            <li><a href="#">
-              <img src="images/dress/2-1.jpg" alt="상품이미지" width="100%">
-              <div class="con-txt">
-                <p>new</p>
-                <h3 class="con-link"><a href="#">프릴 드레스</a></h3>
-              </div>
-            </a></li>
-            <li><a href="#">
-              <img src="images/dress/2-1.jpg" alt="상품이미지" width="100%">
-              <div class="con-txt">
-                <p>new</p>
-                <h3 class="con-link"><a href="#">프릴 드레스</a></h3>
-              </div>
-            </a></li>
-          </ul>
-        </div>  
-      </div>
-      </div>
-  
+
     </div>
 
   </main>
@@ -274,15 +284,39 @@
           snowdrop | 사업자등록번호 : 123-12-1234 | 대표자 : 여수연, 나은지 | 대표번호 : 123-1234-1234 | 광주광역시 서구 농성동 경열로 3
         </address>
         <ul class="sns-list">
-          <li class="sns-item"><a href="#" class="sns-link"><img src="images/icon/facebook.png" alt="페이스북" width="21"></a></li>
-          <li class="sns-item"><a href="#" class="sns-link"><img src="images/icon/talk.png" alt="카카오톡" width="21"></a></li>
-          <li class="sns-item"><a href="#" class="sns-link"><img src="images/icon/instar.png" alt="인스타그램" width="21"></a></li>
-          <li class="sns-item"><a href="#" class="sns-link"><img src="images/icon/twitter.png" alt="트위터" width="21"></a></li>
+          <li class="sns-item"><a href="#" class="sns-link"><img src="images/icon/facebook.png" alt="페이스북"
+                width="21"></a></li>
+          <li class="sns-item"><a href="#" class="sns-link"><img src="images/icon/talk.png" alt="카카오톡" width="21"></a>
+          </li>
+          <li class="sns-item"><a href="#" class="sns-link"><img src="images/icon/instar.png" alt="인스타그램"
+                width="21"></a></li>
+          <li class="sns-item"><a href="#" class="sns-link"><img src="images/icon/twitter.png" alt="트위터" width="21"></a>
+          </li>
         </ul>
       </section>
     </div>
   </footer>
   <div class="mobile-dimmed"></div>
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      direction: "vertical",
+      slidesPerView: 1,
+      spaceBetween: 30,
+      mousewheel: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      }
+    });
+  </script>
 </body>
 
 </html>
