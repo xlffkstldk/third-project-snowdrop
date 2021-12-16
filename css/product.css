@@ -123,4 +123,15 @@ screen and (min-height: 320px) and (orientation: landscape) {
 
 /* pc */
 @media screen and (min-width:1024px),
-screen and (min-height:1024px) and (orientation:landscape) {}
+screen and (min-height:1024px) and (orientation:landscape) {
+
+    .left-con {
+        float:left;
+        width:650px;
+        height:963px;
+    }
+    .slide-wrap {
+        width: 100%;
+        height: 100%;
+    }
+}
