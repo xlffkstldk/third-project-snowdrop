@@ -18,7 +18,7 @@ screen and (min-height: 320px) and (orientation: landscape) {
     }
 
     .con-tit {
-        width: calc(100% - 20px);
+        /* width: calc(100% - 20px); */
         border-bottom: 1px solid #696969;
 
         text-align: right;
