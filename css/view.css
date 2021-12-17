@@ -236,7 +236,7 @@ screen and (min-height: 320px) and (orientation: landscape) {
     .event-con-list-wrap {
         position: relative;
         width: 100%;
-        height: 320px;
+        height: 360px;
         overflow-y: hidden;
         overflow-x: auto;
         text-align: center;
@@ -254,12 +254,14 @@ screen and (min-height: 320px) and (orientation: landscape) {
 
     .event-con-list li {
         float: left;
-        width: 30%;
+        width: 32.5%;
         overflow: hidden;
+        padding-right: 10px;
     }
 
-    .event-con-list li {
-        padding-right: 10px;
+    .event-con-list li>a {
+        width: 100%;
+        height: 100%;
     }
 
     .event-con-txt-wrap {
@@ -675,14 +677,19 @@ screen and (min-height:1024px) and (orientation:landscape) {
     }
 
     .pc-e03 {
-        width: 60%;
+        width: 70%;
         float: right;
         height: 100%;
     }
 
     .pc-e04 li {
-        width: 32%;
-        padding-right: 20px;
+        width: 20%;
+        height: 100%;
+        margin-right: 20px;
+    }
+
+    .pc-e04 li img {
+        width: 120%;
     }
 
     .pc-e02 {
@@ -690,7 +697,7 @@ screen and (min-height:1024px) and (orientation:landscape) {
     }
 
     .pc-e05 {
-        width: 40%;
+        width: 30%;
         float: left;
         height: 100%;
         padding-top: 24%;
