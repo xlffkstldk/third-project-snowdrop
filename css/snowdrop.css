@@ -453,14 +453,38 @@ screen and (min-height:1024px) and (orientation:landscape) {
 .fcontent2 {
   text-align:center;
 }
+.fmenu2-list {
+  width:100px;
+  margin:0 auto;
+}
+.fmenu2-item {
+  text-align:left;
+}
 .fcontent3 {
   float:right;
   width:33.33%;
   border-bottom:unset;
   text-align:right;
   padding:0;
+  position:relative
 }
-
+.fcontent3 .f-h2 {
+  position:absolute;
+  width:150px;
+  right:0;
+  top:0;
+  text-align:left;
+}
+.fmenu3-list {
+  position:absolute;
+  width:150px;
+  right:0;
+  top:50px;
+  text-align:left;
+}
+.fmenu3-item {
+  text-align:left;
+}
 .footer-wrap02 {
   margin-top:50px;
   border-top:1px solid #fff;
