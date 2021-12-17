@@ -730,5 +730,42 @@ screen and (min-height:1024px) and (orientation:landscape) {
         margin-bottom: 300px;
     }
 
+    /* event.html end */
+
+    /* notice.html start */
+
+    .pc-n01 {
+        width: 38%;
+        margin: 0 auto;
+        padding-bottom: 300px;
+        margin-top: -100px;
+    }
+
+    .pc-n02 {
+        width: 100%;
+    }
+
+    .notice-tit-wrap {
+        padding: 4% 0;
+        margin: 0 auto;
+        margin-bottom: 70px;
+    }
+
+    .notice-tit-t {
+        font-size: 23px;
+        padding-bottom: 8px;
+    }
+    .notice-tit-hp>a {
+        font-size: 20px;
+        padding-bottom: 13px;
+    }
+    .notice-tit-p {
+        font-size: 13px;
+    }
+
+    .qa {
+        font-size: 22px;
+        font-weight: bolder;
+    }
 
     }
