@@ -134,7 +134,7 @@ screen and (min-height:1024px) and (orientation:landscape) {
     
   }
   .fm-wrap {
-    width:600px;
+    width:500px;
     display:inline-block;
     margin-bottom:150px;
   }
