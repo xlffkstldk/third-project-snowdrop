@@ -55,7 +55,7 @@ screen and (min-height: 320px) and (orientation: landscape) {
     }
 
     .pro-into {
-        padding-top: 300px;
+        padding-top: 250px;
     }
 
     .pro-into h3 {
@@ -97,6 +97,56 @@ screen and (min-height: 320px) and (orientation: landscape) {
         height: 100%;
         object-fit: cover;
     }
+
+    .pro-con-recom {
+        width: 100%;
+        /* background-color: #eee; */
+        position: relative;
+        height: 92vw;
+        overflow-x: auto;
+        overflow-y: hidden;
+        top: -790px;
+    }
+
+    .pro-con-recom-wrap {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 520px;
+        height: 100%;
+    }
+
+    .pro-con-recom-wrap>ul>li {
+        width: 130px;
+        height: 100%;
+        float: left;
+        overflow: hidden;
+    }
+    .pro-con-recom-wrap>ul>li>a {
+        width: calc(100% - 8px);
+    }
+
+    .pro-con-recom-wrap>ul>li>a>img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .pro-con-tit {
+        line-height: 30px;
+        font-size: 18px;
+        font-weight: 700;
+        border-bottom: 1px solid #444;
+        color: #000;
+        text-align: right;
+    }
+
+    .con-txt p, h3{
+        font-size: 11px;
+    }
+    .con-txt p{
+        font-weight: 600;
+    }
+
 }
 
 
@@ -107,11 +157,102 @@ screen and (min-height:1024px) and (orientation:landscape) {
 
     .left-con {
         float:left;
-        width:650px;
-        height:963px;
+        width:50%;
+        height:850px;
     }
     .slide-wrap {
         width: 100%;
         height: 100%;
     }
+
+    .swiper>ul>li>img {
+        width: 100%;
+    }
+
+    .sample {
+        top: 120%;
+        left: 0;
+    }
+    
+    .sample:hover {
+        background-color: #fff;
+    }
+
+    .right-con {
+        width: 50%;
+        float: right;
+        padding-left: 3%;
+    }
+
+    .bookmark-wrap img {
+        margin-right: 71%;
+        top: 123%;
+    }
+    .book-tit {
+        position: absolute;
+        left: 30%;
+        top: 127%;
+    }
+
+    .pro-con-recom {
+        top: 130px;
+    }
+
+    .pro-txt-wrap h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .pro-txt {
+        padding: 20px 0;
+        font-size: 13px;
+        font-weight: normal;
+    }
+
+    .pro-into {
+        padding-top: 120px;
+    }
+
+    .pro-con-recom {
+        height: 28vw;
+    }
+    
+    .pro-con-tit {
+        text-align: left;
+        text-indent: 10px;
+    }
+
+    .pro-list a{
+        font-size: 14px;
+        color: #555;
+        line-height: 20px;
+    }
+    .pro-list a:hover{
+        color: #000;
+  
+    }
+
+    .pro-list {
+        padding-top: 20px;
+    }
+
+    .pro-con-recom-wrap {
+        width: 100%;
+        height: 100%;
+        top: 90px;
+    }
+
+    .pro-con-recom-wrap>ul>li {
+        width: 18%;
+        margin-right: 10px;
+    }
+
+    .pc {
+        display: block;
+    }
+
+    .pd {
+        padding-bottom: 300px;
+    }
+
 }
