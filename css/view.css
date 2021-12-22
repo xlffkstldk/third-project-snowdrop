@@ -682,6 +682,17 @@ screen and (min-height:1024px) and (orientation:landscape) {
         height: 100%;
     }
 
+    .pc-e03::-webkit-scrollbar {
+        background-color: #eee;
+        height: 10px;
+    }
+
+    .pc-e03::-webkit-scrollbar-thumb {
+        background-color: #444;
+        border: 2px solid #eee;
+        border-radius: 10px;
+    }
+
     .pc-e04 li {
         width: 20%;
         height: 100%;
